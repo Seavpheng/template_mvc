@@ -1,0 +1,31 @@
+﻿@model IEnumerable<template.Models.Item>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<ul>
+    <li>@Html.ActionLink("New Item", "Create")</li>
+     
+</ul>
+<div class="table-responsive">
+    <table class="table">
+        <tr>
+            <td>Item Code</td>
+            <td>Item Name</td>
+            <td>Item Group</td>
+            <td>Action</td>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ItemCode</td>
+                <td>@item.Name</td>
+                <td>@item.ItemGroup.Name</td>
+                <td>@Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.Id })</td>
+            </tr>
+        }
+    </table>
+
+</div>
