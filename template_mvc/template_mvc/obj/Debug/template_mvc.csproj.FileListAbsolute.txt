@@ -422,3 +422,8 @@ D:\project\template_mvc\template_mvc\template_mvc\obj\Debug\template_mvc.csproj.
 D:\project\template_mvc\template_mvc\template_mvc\obj\Debug\template_mvc.csproj.CopyComplete
 D:\project\template_mvc\template_mvc\template_mvc\obj\Debug\template_mvc.dll
 D:\project\template_mvc\template_mvc\template_mvc\obj\Debug\template_mvc.pdb
+D:\project\template_mvc\template_mvc\template_mvc\bin\Antlr3.Runtime.dll
+D:\project\template_mvc\template_mvc\template_mvc\bin\System.Web.Optimization.dll
+D:\project\template_mvc\template_mvc\template_mvc\bin\WebGrease.dll
+D:\project\template_mvc\template_mvc\template_mvc\bin\Antlr3.Runtime.pdb
+D:\project\template_mvc\template_mvc\template_mvc\bin\System.Web.Optimization.xml
